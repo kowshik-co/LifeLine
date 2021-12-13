@@ -1,0 +1,166 @@
+*{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.bgimage{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../image/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.mainheader{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainheader .logo img{
+  width: 110px; height: 85px;
+  padding-left: 20px;
+}
+
+.mainheader nav{
+  width: 450px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mainheader nav a{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.menubutton{
+  margin-right: 60px;
+
+}
+
+.mainheader button{
+  padding: 10px 45px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  background-image:  linear-gradient(to right,#649bff,#0070fa,#649bff);
+  border-radius: 10px;
+}
+
+main{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .middle-sec{
+  padding-left: 180px;
+}
+
+.middle-sec h2{
+  font-size: 20px;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: lighter;
+  color: #4a4b5c;
+  margin-top: 130px;
+}
+
+.middle-sec h1{
+  font-size: 55px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+.middle-sec p{
+  margin-bottom: 20px;
+  padding-left: 260px;
+}
+
+.middle-sec button{
+  padding: 15px 45px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  background-image:  linear-gradient(to right,#649bff,#0070fa,#649bff);
+  border-radius: 10px;
+}
+
+.baton{
+  padding: 1%;
+  font-size: 1rem;
+  border-radius: 5px;
+  color: #fff;
+  background-image:  linear-gradient(to right,#649bff,#0070fa,#649bff);
+  border: none;
+}
+
+.baton-primary{
+  color: #fff;
+  background-image:  linear-gradient(to right,#649bff,#0070fa,#649bff);
+  cursor: pointer;
+}
+
+.container{
+  border: 1px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 4%;
+}
+
+.img-responsive{
+  width: 100%;
+}
+
+.img-curve{
+  border-radius: 10px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.clearfix{
+  clear: both;
+  float: none;
+}
+
+.service-list{
+  background-color: #c8d6e5;
+  padding: 4% 0;
+}
+
+.service-list-box{
+  border: 1px ;
+  width: 43%;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.service-list-img{
+  width: 20%;
+  float: left;
+
+}
+
+.service-description{
+  width: 70%;
+  float: left;
+  margin-left: 8%
+}
+
+.service-details{
+  font-size: 1rem;
+  color: #576574;
+}
